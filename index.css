@@ -91,7 +91,7 @@ body {
     "stack skills skills"
     "stack hobbies hobbies"
     "education . .";
-    background-color: rgba(83, 12, 124, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #jPic {
@@ -103,10 +103,10 @@ body {
     margin-bottom: 20px;
 }
 
-p {
+.text {
     padding: 5px;
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.65);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .type {
@@ -114,11 +114,16 @@ p {
     font-size: 25px;
     color: teal;
     margin-right: 10px;
+    margin-left: 5px;
 }
   
 .desc {
     font-size: 25px;
     color: rgb(235, 232, 240);
+}
+
+b {
+    color: white;
 }
 
 .tile {
@@ -138,24 +143,49 @@ p {
     "java python"
     "js node"
     "react android";
-    background-color: rgba(0, 128, 128, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     
 }
 
 #skills {
     grid-area: skills;
+    background-color: rgba(0, 120, 120, 0.6);    
 }
 
 #education {
     grid-area: education;
+    padding: 5px;
+    background-color: rgba(83, 128, 128, 0.8);
 }
 
 #hobbies {
     grid-area: hobbies;
+    background-color: rgba(83, 12, 124, 0.5);
+}
+
+#hobbyTiles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbyImg {
+    width: 8vw;
+    height: 15vh;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .mini-tile {
-    width: 75%;
+    width: 9vw;
+    height: 15vh;
     border-radius: 10px;
     margin: 5px;
 }
@@ -165,6 +195,11 @@ p {
     text-align: center;
     font-size: 30px;
     margin: 5px;
+}
+
+#dekut {
+    width: 100%;
+    border-radius: 5px;
 }
 
 #title {
@@ -196,12 +231,19 @@ p {
   
 #projects {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
 .project-img {
-    width: 450px;
+    width: 45vw;
     height: auto;
     border-radius: 10px;
 }
@@ -215,18 +257,35 @@ footer {
     background-color: black;
     text-align: center;
 }
-  
-@media (max-width) {
-    .project-img {
-      width: 300px;
-    }
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
 }
   
 .contact-links {
     margin: 5px;
-    color: #4B298F;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-line: none;
+}
+
+.contact-links:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration-line: underline;
 }
   
 #contact-me {
-    color: teal;
+    font-size: 25px;
+    color: rgb(9, 145, 223);
+}
+
+.linkImg {
+    width: 70px;
+}
+
+.linkCont {
+    margin-bottom: 10px;
 }
