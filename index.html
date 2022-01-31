@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,144 +8,142 @@
     <title>Portfolio: Javan Kyalo</title>
     <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-    <main id="main">
-  
-        <header>
-            <nav id="navbar">
-                <div id="id">
-                    <img id="avatar" src="https://firebasestorage.googleapis.com/v0/b/dekutchat.appspot.com/o/profilePics%2Fcd64e05c-fc85-4f48-b26f-381d0ce57cb2?alt=media&token=f9d5bf74-d3f9-4d0a-8fa6-3c3bbf6124e9" />
-                    <p id="heading">Portfolio</p>
+    <main>
+        <div id="me">
+            <img id="jPic" src="https://firebasestorage.googleapis.com/v0/b/dekutchat.appspot.com/o/profilePics%2Fcd64e05c-fc85-4f48-b26f-381d0ce57cb2?alt=media&token=f9d5bf74-d3f9-4d0a-8fa6-3c3bbf6124e9"
+            />
+            <div id="me-text">
+                <label class="type">Name:</label>
+                <label class="desc">Javan Kyalo</label>
+                <br>
+                <label class="type">Proffesion:</label>
+                <label class="desc">Software Developer</label>
+                <br>
+                <label class="type">Location:</label>
+                <label class="desc">Nyeri, Kenya</label>
+                <br>
+            </div>
+
+            <div id="contacts">
+                <p class="type">Contacts</p>
+                <div class="linkCont">
+                    <img class="linkImg" src="images/phone.png" />
+                    <label class="contact-links">+254716008298</label>
                 </div>
-                <div id="links">
-                    <a href="#about" class="nav-links">About</a>
-                    <a href="#projects" class="nav-links">Projects</a>
-                    <a href="#contacts" class="nav-links">Contact</a>
+                <div class="linkCont">
+                    <img class="linkImg" src="images/mail.jpg" />
+                    <label class="contact-links">javankyalo2@gmail.com</label>
                 </div>
-            </nav>
-        </header>
-        
-        <body>
-          
-            <section id="about">
-                <div id="me">
-                        <img id="jPic" src="https://firebasestorage.googleapis.com/v0/b/dekutchat.appspot.com/o/profilePics%2Fcd64e05c-fc85-4f48-b26f-381d0ce57cb2?alt=media&token=f9d5bf74-d3f9-4d0a-8fa6-3c3bbf6124e9" />
-                        <div id="me-text">
-                            <label class="type">Name:</label><label class="desc">Javan Kyalo</label><br>
-                            <label class="type" >Proffesion:</label><label class="desc" >Software Developer</label><br>
-                            <label class="type" >Location:</label><label class="desc" >Nyeri, Kenya</label><br>
+                <div class="linkCont">
+                    <img class="linkImg" src="images/git.png" />
+                    <a href="https://github.com/869324" target="_blank" class="contact-links">GitHub</a>
+                </div>
+
+                <div class="linkCont">
+                    <img class="linkImg" src="images/linked.png" />
+                    <a href="https://www.linkedin.com/in/javan-kyalo-b9b306207/" target="_blank" class="contact-links">LikendIn</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-content">
+            <div id="skills" class="tile">
+                <h2 style="grid-area: heading" class="tile-heading">Skills</h2>
+
+                <diV id="skillsCont">
+                    <div>
+                        <h3>Programming Languages</h3>
+                        <div class="skillCont">
+                            <img class="skillImg" src="images/java.png" />
+                            <label class="text">Java</label>
                         </div>
-                </div>
-
-                <div id="about-content">
-                    <div id="stack" class="tile">
-                        <h2 style="grid-area: heading" class="tile-heading">Stack</h2>
-                        <img class="mini-tile" src="images/java.png" style="grid-area: java" />
-                        <img class="mini-tile" src="images/python.png" style="grid-area: python" />
-                        <img class="mini-tile" src="images/js.jpg" style="grid-area: js" />
-                        <img class="mini-tile" src="images/node.png" style="grid-area: node" />
-                        <img class="mini-tile" src="images/react.jpg" style="grid-area: react" />
-                        <img class="mini-tile" src="images/android.jpg" style="grid-area: android" />
-                    </div>
-
-                    <div id="skills" class="tile">
-                        <h2 class="tile-heading">About Me</h2>
-                        <p class="text">I have a passion for programming; majoring in <b>Full Stack</b> and <b>Mobile</b> software development. 
-                            I like the feeling of solving problems with technology and 
-                            I aspire to be a great contribution to the technology world.</p>
-                    </div>
-
-                    <div id="education" class="tile">
-                        <h2 class="tile-heading">Education</h2>
-                        <img id="dekut" src="images/dekut.png"/>
-                        <label class="text">2018 - 2021</label><br>
-                        <label class="text">Bsc Computer Science</label>
-                    </div>
-
-                    <div id="hobbies" class="tile">
-                        <h2 class="tile-heading">Hobbies</h2>
-                        <div id="hobbyTiles">
-                            <div class="hobby">
-                                <img class="hobbyImg" src="images/gaming.jpg" />
-                                <label class="text">Gaming</label>
-                            </div>
-                            <div class="hobby">
-                                <img class="hobbyImg" src="images/football.jpg" />
-                                <label class="text">Footbal</label>
-                            </div>
-                            <div class="hobby">
-                                <img class="hobbyImg" src="images/music.jpg" />
-                                <label class="text">music</label>
-                            </div>
-                            <div class="hobby">
-                                <img class="hobbyImg" src="images/movies.jpg" />
-                                <label class="text">Movies</label>
-                            </div>
+                        <div class="skillCont">
+                            <img class="skillImg" src="images/python.png" />
+                            <label class="text">Python</label>
                         </div>
-                    </div>        
-                </div>
-            </section>
-          
-          <h2 id="project-intro">Here are some of my projects<h2>
-            
-          <section id="projects">
-                <div class="project-row">
+                        <div class="skillCont">
+                            <img class="skillImg" src="images/js.jpg" />
+                            <label class="text">JavaScript</label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>Other Skills</h3>
+                        <div class="skillCont">
+                            <img class="skillImg" src="images/react.jpg" />
+                            <label class="text">React</label>
+                        </div>
+                        <div class="skillCont">
+                            <img class="skillImg" src="images/node.png" />
+                            <label class="text">NodeJs</label>
+                        </div>
+                        <div class="skillCont">
+                            <img class="skillImg" src="images/android.jpg" />
+                            <label class="text">Android</label>
+                        </div>
+                    </div>
+                </diV>
+            </div>
+
+            <div id="my-desc" class="tile">
+                <h2 class="tile-heading">About Me</h2>
+                <p class="text">I have a passion for programming; majoring in
+                    <b>Full Stack</b> and
+                    <b>Mobile</b>
+                    software development. I like the feeling of solving problems with technology and I aspire to be a great contribution to the
+                    technology world.</p>
+
+                <p class="text">Programming is not only a profession for me but also a part of my life. I spend everyday tyring to get better
+                    and better in this field.
+                </p>
+            </div>
+
+            <div id="education" class="tile">
+                <h2 class="tile-heading">Education</h2>
+                <img id="dekut" src="images/dekut.png" />
+                <label class="text">2018 - 2021</label>
+                <br>
+                <label class="text">Bsc Computer Science</label>
+            </div>
+
+            <div id="projects" class="tile">
+                <h2 class="tile-heading">Projects</h2>
+                <div id="projectTiles">
                     <figure class="project-tile">
-                        <a href="https://codepen.io/Javan_Kyalo/pen/wvqKGWY" target="_blank"><img class="project-img" src="https://firebasestorage.googleapis.com/v0/b/dekutchat.appspot.com/o/freecodecamp%2Fproduct-landing.PNG?alt=media&token=bff3cfcb-0ae5-43ba-8151-7aa122683502" alt="Product landing project image"></a>
+                        <a href="https://codepen.io/Javan_Kyalo/pen/wvqKGWY" target="_blank">
+                            <img class="project-img" src="https://firebasestorage.googleapis.com/v0/b/dekutchat.appspot.com/o/freecodecamp%2Fproduct-landing.PNG?alt=media&token=bff3cfcb-0ae5-43ba-8151-7aa122683502"
+                                alt="Product landing project image">
+                        </a>
                         <figcaption>Product Landing Page</figcaption>
                     </figure>
-            
+
                     <figure class="project-tile">
-                        <a href="https://codepen.io/Javan_Kyalo/pen/XWabRaN" target="_blank"><img class="project-img" src="https://firebasestorage.googleapis.com/v0/b/dekutchat.appspot.com/o/freecodecamp%2Fsurvey-form.PNG?alt=media&token=cdb4d19f-38b0-420e-af79-46e6cf34e174" alt="Survey form project image"></a>
-                        <figcaption>Survey Form</figcaption>
+                        <a href="https://github.com/869324/ecommerce" target="_blank">
+                            <img class="project-img" src="images/sneaker.png" alt="JS regex documentation prject image">
+                        </a>
+                        <figcaption>sneaker Page</figcaption>
                     </figure>
-                </div> 
-                
-                <div class="project-row">
+
                     <figure class="project-tile">
-                        <a href="https://codepen.io/Javan_Kyalo/pen/BadobNe" target="_blank"><img class="project-img" src="https://firebasestorage.googleapis.com/v0/b/dekutchat.appspot.com/o/freecodecamp%2Fregex-doc.PNG?alt=media&token=bda7def7-b24b-4c5c-a9bb-b7c6fbc73601" alt="JS regex documentation prject image"></a>
+                        <a href="https://codepen.io/Javan_Kyalo/pen/BadobNe" target="_blank">
+                            <img class="project-img" src="https://firebasestorage.googleapis.com/v0/b/dekutchat.appspot.com/o/freecodecamp%2Fregex-doc.PNG?alt=media&token=bda7def7-b24b-4c5c-a9bb-b7c6fbc73601"
+                                alt="JS regex documentation prject image">
+                        </a>
                         <figcaption>Technical Documentation</figcaption>
                     </figure>
 
                     <figure class="project-tile">
-                        <a href="https://github.com/869324/cardChallenge" target="_blank"><img class="project-img" src="images/card.png" alt="JS regex documentation prject image"></a>
-                        <figcaption>Card Page</figcaption>
-                    </figure>
-                </div>
-
-                <div class="project-row">
-                    <figure class="project-tile">
-                        <a href="https://github.com/869324/ecommerce" target="_blank"><img class="project-img" src="images/sneaker.png" alt="JS regex documentation prject image"></a>
-                        <figcaption>sneaker Page</figcaption>
-                    </figure>
-    
-                    <figure class="project-tile">
-                        <a href="https://github.com/869324/orderSummary" target="_blank"><img class="project-img" src="images/order.png" alt="JS regex documentation prject image"></a>
+                        <a href="https://github.com/869324/orderSummary" target="_blank">
+                            <img class="project-img" src="images/order.png" alt="JS regex documentation prject image">
+                        </a>
                         <figcaption>Order Summary Page</figcaption>
                     </figure>
                 </div>
-               
-          </section>
-              
-          <footer id="contacts">
-            <p id="contact-me">Contacts</p>
-            <div class="linkCont">
-                <img class="linkImg" src="images/git.png" />
-                <a href="https://github.com/869324" target="_blank" class="contact-links">GitHub</a>
             </div>
-            
-            <div class="linkCont">
-                <img class="linkImg" src="images/camp.png" />
-                <a href="https://www.freecodecamp.org/Javan_Kyalo" target="_blank" id="profile-link" class="contact-links">FreeCodeCamp</a>
-            </div>
-
-            <div class="linkCont">
-                <img class="linkImg" src="images/linked.png" />    
-                <a href="https://www.linkedin.com/in/javan-kyalo-b9b306207/" target="_blank" class="contact-links">LikendIn</a>
-            </div>
-          </footer>    
-          
-        </body>
-      </main>
+        </div>
+    </main>
 </body>
+
 </html>
