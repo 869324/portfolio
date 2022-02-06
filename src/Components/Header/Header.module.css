@@ -1,0 +1,63 @@
+.header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 9vh;
+    border-bottom: 1px solid orange;
+    z-index: 99;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    background-color: whitesmoke;
+}
+
+#username {
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.link {
+    color:  whitesmoke;
+    margin-right: 30px;
+    text-decoration-line: unset;
+    font-weight: bold;
+}
+
+.link:Hover {
+    text-decoration-line: underline;
+}
+
+.active {
+    margin-right: 30px;
+    text-decoration-line: unset;
+    font-weight: bold;
+    color: orange;
+}
+
+#button {
+    background-color: orange;
+    border: 0px solid transparent;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#button:hover {
+    background-color: rgba(255, 165, 0, 0.8);
+}

@@ -1,0 +1,62 @@
+.home {
+    margin-top: 9vh;
+    background-color: black;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 91vh;
+}
+
+.welcome {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#intro {
+    font-size: 60px;
+    color: white;
+}
+
+#introName{
+    color: orange;
+    font-size: 60px;
+}
+
+#occupation {
+    display: block;
+    color: white;
+    font-size: 40px;
+}
+
+#field {
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+.spec {
+    color: orange;
+    font-weight: bold;
+}
+
+.myDesc {
+    width: 80%;
+}
+
+.text {
+    display: block;
+    color: whitesmoke;
+}

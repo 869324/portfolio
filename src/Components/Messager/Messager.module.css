@@ -1,0 +1,69 @@
+.messager {
+    width: 100vw;
+    height: 91vh;
+    position: fixed;
+    left: 0;
+    top: 9vh;
+    z-index: 98;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 60%;
+    height: 80%;
+    background-color: rgba(200, 200, 200, 1);
+    border-radius: 10px;
+}
+
+#closeBtn {
+    position: relative;
+    top: 1%;
+    left: 95%;
+    transform: rotate(45deg);
+    background: transparent;
+    border-style: none;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.heading {
+    text-align: center;
+    color: teal;
+}
+
+.form {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.input {
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+#message {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+#sendBtn {
+    width: 40%;
+    background-color: orange;
+    font-weight: bold;
+    padding: 10px;
+    border-style: none;
+    border-radius: 7px;
+}
